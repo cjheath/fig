@@ -12,6 +12,10 @@ support library for Unicode strings, arrays, maps, and variant types, amongst ot
 
 Px also generates browsable rail-road diagrams that use SVG in a web page.
 
+### To Build
+
+Check out this repository alongside checkouts of STRPP and Px, and say "make".
+
 ### Testing
 
 Px grammars use PEG, which does not require separate tokenisation, hence whitespace must be
