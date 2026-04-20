@@ -23,8 +23,6 @@
 
 #include	"memory_monitor.h"
 
-typedef	Peg<PegMemorySource, PegMatch, PegContext>	FigParser;
-
 void usage()
 {
 	fprintf(stderr, "Usage: peg_test peg.px\n");

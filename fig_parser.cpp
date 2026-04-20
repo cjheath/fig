@@ -65,7 +65,7 @@ const char*	string_range_captures[] = { "low", "high", 0 };
 const char*	number_captures[] = { "number", 0 };
 const char*	typename_captures[] = { "id", 0 };
 
-template<>FigParser::Rule	FigParser::rules[] =
+FigParser::Rule	FigParser::rules[] =
 {
 	{ "TOP",
 	  "?(<BOM>:bom:)*<definition>",
@@ -449,4 +449,4 @@ template<>FigParser::Rule	FigParser::rules[] =
 	}
 };
 
-template<>int	FigParser::num_rule = sizeof(FigParser::rules)/sizeof(FigParser::rules[0]);
+int	FigParser::num_rule = sizeof(FigParser::rules)/sizeof(FigParser::rules[0]);
